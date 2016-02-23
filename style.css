@@ -1,0 +1,79 @@
+/* common */
+html {
+  font-size: 62.5%;
+}
+*{
+  
+}
+.clear {
+  clear: both;
+}
+.circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.prof_main {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+}
+.prof_small{
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.prof_usually {
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+/* top */
+.head {
+  width: 100%;
+  background: #ff7200;
+}
+.head h1 {
+  float: left;
+}
+.head .top_right {
+  float: right;
+}
+
+/* left_content */
+.left_content {
+  width: 30%;
+  float: left;
+}
+.friends_area li {
+  display: block;
+}
+
+/* center_content */
+.center_content {
+  width: 30%;
+  float: left;
+}
+
+/* right_content */
+.right_content {
+  width: 30%;
+  float: left;
+}
+.recommended_area li {
+  display: block;
+}
+.recommended_area .title {
+  background: #aaa; /* カラースキン */
+  width: 40%;
+  height: 30px;
+}
+button[type="submit"] {
+  border: none;
+  width: 29px;
+  height: 29px;
+  background: url(img/search_btn.png) no-repeat;
+  text-indent: 30px;/* text非表示 */
+  white-space:nowrap;
+  overflow:hidden;
+}
