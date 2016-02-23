@@ -3,7 +3,11 @@ html {
   font-size: 62.5%;
 }
 *{
-  
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
 }
 .clear {
   clear: both;
@@ -17,6 +21,21 @@ html {
   width: 80px;
   height: 80px;
   overflow: hidden;
+}
+.prof_list {
+  display: block;
+}
+.prof_list:after {
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;  
+  clear: both; 
+  visibility:hidden;
+}
+.prof_list span {
+  display: block;
+  float: left;
 }
 .prof_small{
   width: 30px;
@@ -42,26 +61,41 @@ html {
 
 /* left_content */
 .left_content {
-  width: 30%;
+  width: 10%;
   float: left;
-}
-.friends_area li {
-  display: block;
 }
 
 /* center_content */
 .center_content {
-  width: 30%;
+  width: 780px;
   float: left;
+}
+.input_area {
+  padding: 0 20px;
+  background: yellow;
+  position: relative;
+}
+.input_area .input_switching  {
+  margin: 10px;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  right: 8px;
+}
+.input_area .input_switching a {
+  width: 100px;
+  display: inline-block;
+}
+.input_area textarea {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 /* right_content */
 .right_content {
   width: 30%;
   float: left;
-}
-.recommended_area li {
-  display: block;
 }
 .recommended_area .title {
   background: #aaa; /* カラースキン */
